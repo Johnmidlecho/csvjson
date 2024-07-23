@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빈칸 채우기</title>
+    <style>
+        body{
+            font-family: 'Arial' , sans-serif; 
+            background-color: #500303e8;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0; 
+            }
+            
+        .container{
+            background-color: white;
+            padding: 50px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            }
+        
+        h1{
+            margin-bottom: 40px;
+            color: #333;
+            font-size: 2em;
+            }
+        
+        .sentence{
+            font-size: 24px;
+            margin-bottom: 40px;
+            color: #e30808;
+        
+            }
+        
+        .options button{
+            background-color: #0d9e1e;
+            color: wheat;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 20px;
+            margin:10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            }
+        
+        .options button:hover{ 
+            background-color: #0056b3;
+            }
+        
+        #result {
+         margin-top: 30px;
+         font-size: 22px;
+         color: #0333;
+        }
+        
+        .button1{
+            background-color: #070ae09b;
+            color: rgb(241, 237, 243);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 20px;
+            margin:50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+            }    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> 영어 문장 빈칸 맞추기</h1>
+        <div class="sentence">
+            <p id="sentence-text"></p>
+        </div>    
+        <div class="options" id="options-container">
+            <!-- 버튼들이 여기에 동적으로 추가될 것입니다. -->
+        </div>  
+        <p id="result"></p>
+        <button class="button1" id="next-button" onclick="nextSentence()">next</button>
+        <button class="button1" id="reset-button" onclick="resetSentence()">first</button>
+    </div>
+    <script>
+        let sentences = [];
+        let currentSentenceIndex = 0; // 현재 문장의 인덱스
+
+        // JSON 파일을 인터넷에서 불러오기 (프록시 사용)
+        fetch('https://gist.githubusercontent.com/Johnmidlecho/beefc3892fbb09756290305dec1254eb/raw/d438b99e2bb1a202ee691887719b3652b8fd7ed8/gistfile1.txt')
+            .then(response => response.json())
+            .then(data => {
+                sentences = data.map(sentence => ({
+                    text: sentence.text,
+                    options: [
+                        {text: sentence.optinon1, correct: sentence.exam_01 === 1},
+                        {text: sentence.optinon2, correct: sentence.exam_02 === 1},
+                        {text: sentence.optinon3, correct: sentence.exam_03 === 1}                      
+                        
+                    ]
+                }));
+                loadSentence(currentSentenceIndex); // 처음 문장을 로드합니다.
+            })
+            .catch(error => console.error('Error fetching the JSON:', error));
+
+        function loadSentence(index) {
+            if (sentences.length === 0) return; // JSON 데이터가 로드되지 않은 경우 처리
+            const sentence = sentences[index];
+            document.getElementById("sentence-text").textContent = sentence.text;
+            const optionsContainer = document.getElementById("options-container");
+            optionsContainer.innerHTML = ''; // 이전 옵션들 제거
+            sentence.options.forEach(option => {
+                const button = document.createElement("button");
+                button.textContent = option.text;
+                button.setAttribute("data-answer", option.correct ? "correct" : "wrong");
+                button.setAttribute("onclick", "checkAnswer(this)");
+                optionsContainer.appendChild(button);
+            });
+            document.getElementById("result").textContent = ''; // 결과 리셋
+        }
+
+        function checkAnswer(button) {
+            const result = document.getElementById("result");
+            const answer = button.getAttribute("data-answer");
+            if (answer === "correct") {
+                result.textContent = "정답입니다!";
+                result.style.color = "green";
+                result.style.fontSize = "30px";
+            } else {
+                result.textContent = "틀렸습니다. 다시 시도하세요.";
+                result.style.color = "red";
+                result.style.fontSize = "15px";
+            }
+        }
+
+        function nextSentence() {
+            currentSentenceIndex = (currentSentenceIndex + 1) % sentences.length; // 다음 문장으로 이동
+            loadSentence(currentSentenceIndex);
+        }
+
+        function resetSentence() {
+            currentSentenceIndex = 0; // 처음 문장으로 이동
+            loadSentence(currentSentenceIndex);
+        }
+    </script>
+</body>
+</html>
