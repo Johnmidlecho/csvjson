@@ -90,7 +90,7 @@
         let currentSentenceIndex = 0; // 현재 문장의 인덱스
 
         // JSON 파일을 인터넷에서 불러오기 (프록시 사용)
-        fetch('https://gist.githubusercontent.com/Johnmidlecho/beefc3892fbb09756290305dec1254eb/raw/d438b99e2bb1a202ee691887719b3652b8fd7ed8/gistfile1.txt')
+        fetch('https://github.com/Johnmidlecho/html-hosting/blob/main/csvjson.json')
             .then(response => response.json())
             .then(data => {
                 sentences = data.map(sentence => ({
