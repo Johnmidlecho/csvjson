@@ -90,15 +90,15 @@
         let currentSentenceIndex = 0; // 현재 문장의 인덱스
 
         // JSON 파일을 인터넷에서 불러오기 (프록시 사용)
-        fetch('https://github.com/Johnmidlecho/html-hosting/blob/main/csvjson.json')
+        fetch('https://gist.githubusercontent.com/Johnmidlecho/beefc3892fbb09756290305dec1254eb/raw/37f1b311084b5b449429e9e76d94285c8a74bb77/gistfile1.txt')
             .then(response => response.json())
             .then(data => {
                 sentences = data.map(sentence => ({
-                    text: sentence.text,
+                    text: sentence.Question,
                     options: [
-                        {text: sentence.optinon1, correct: sentence.exam_01 === 1},
-                        {text: sentence.optinon2, correct: sentence.exam_02 === 1},
-                        {text: sentence.optinon3, correct: sentence.exam_03 === 1}                      
+                        {text: sentence.Option, correct: sentence.A== 1},
+                        {text: sentence.Option__1, correct: sentence.B === 1},
+                        {text: sentence.Option__2, correct: sentence.C === 1}                      
                         
                     ]
                 }));
