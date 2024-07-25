@@ -1,0 +1,452 @@
+[
+  {
+    "Question": "Sarah ___ to school every day.",
+    "Option": "walk",
+    "A": 0,
+    "Option__1": "walks",
+    "B": 1,
+    "Option__2": "walked",
+    "C": 0
+  },
+  {
+    "Question": "The dog ___ loudly when it sees strangers.",
+    "Option": "barks",
+    "A": 1,
+    "Option__1": "barked",
+    "B": 0,
+    "Option__2": "bark",
+    "C": 0
+  },
+  {
+    "Question": "He ___ his homework before dinner.",
+    "Option": "does",
+    "A": 1,
+    "Option__1": "did",
+    "B": 0,
+    "Option__2": "do",
+    "C": 0
+  },
+  {
+    "Question": "She ___ a book every month.",
+    "Option": "reads",
+    "A": 1,
+    "Option__1": "readed",
+    "B": 0,
+    "Option__2": "read",
+    "C": 0
+  },
+  {
+    "Question": "The teacher ___ the lesson very well.",
+    "Option": "explains",
+    "A": 1,
+    "Option__1": "explained",
+    "B": 0,
+    "Option__2": "explain",
+    "C": 0
+  },
+  {
+    "Question": "John ___ to music in his free time.",
+    "Option": "listened",
+    "A": 0,
+    "Option__1": "listen",
+    "B": 0,
+    "Option__2": "listens",
+    "C": 1
+  },
+  {
+    "Question": "Maria ___ to the gym on weekends.",
+    "Option": "went",
+    "A": 0,
+    "Option__1": "go",
+    "B": 0,
+    "Option__2": "goes",
+    "C": 1
+  },
+  {
+    "Question": "He ___ breakfast at 7 a.m. every day.",
+    "Option": "had",
+    "A": 0,
+    "Option__1": "have",
+    "B": 0,
+    "Option__2": "has",
+    "C": 1
+  },
+  {
+    "Question": "The cat ___ on the sofa.",
+    "Option": "slept",
+    "A": 0,
+    "Option__1": "sleep",
+    "B": 0,
+    "Option__2": "sleeps",
+    "C": 1
+  },
+  {
+    "Question": "She ___ her car once a week.",
+    "Option": "washed",
+    "A": 0,
+    "Option__1": "wash",
+    "B": 0,
+    "Option__2": "washes",
+    "C": 1
+  },
+  {
+    "Question": "David ___ his teeth twice a day.",
+    "Option": "brushed",
+    "A": 0,
+    "Option__1": "brush",
+    "B": 0,
+    "Option__2": "brushes",
+    "C": 1
+  },
+  {
+    "Question": "The baby ___ when he is hungry.",
+    "Option": "cried",
+    "A": 0,
+    "Option__1": "cry",
+    "B": 0,
+    "Option__2": "cries",
+    "C": 1
+  },
+  {
+    "Question": "She ___ her room every Saturday.",
+    "Option": "cleaned",
+    "A": 0,
+    "Option__1": "clean",
+    "B": 0,
+    "Option__2": "cleans",
+    "C": 1
+  },
+  {
+    "Question": "Tom ___ his friends on the weekend.",
+    "Option": "visited",
+    "A": 0,
+    "Option__1": "visit",
+    "B": 0,
+    "Option__2": "visits",
+    "C": 1
+  },
+  {
+    "Question": "The sun ___ in the east.",
+    "Option": "rose",
+    "A": 0,
+    "Option__1": "rise",
+    "B": 0,
+    "Option__2": "rises",
+    "C": 1
+  },
+  {
+    "Question": "The chef ___ delicious meals.",
+    "Option": "cooked",
+    "A": 0,
+    "Option__1": "cook",
+    "B": 0,
+    "Option__2": "cooks",
+    "C": 1
+  },
+  {
+    "Question": "She ___ the piano beautifully.",
+    "Option": "played",
+    "A": 0,
+    "Option__1": "play",
+    "B": 0,
+    "Option__2": "plays",
+    "C": 1
+  },
+  {
+    "Question": "He ___ to work by bus.",
+    "Option": "traveled",
+    "A": 0,
+    "Option__1": "travel",
+    "B": 0,
+    "Option__2": "travels",
+    "C": 1
+  },
+  {
+    "Question": "The bird ___ early in the morning.",
+    "Option": "sang",
+    "A": 0,
+    "Option__1": "sing",
+    "B": 0,
+    "Option__2": "sings",
+    "C": 1
+  },
+  {
+    "Question": "Jane ___ her homework every evening.",
+    "Option": "finished",
+    "A": 0,
+    "Option__1": "finish",
+    "B": 0,
+    "Option__2": "finishes",
+    "C": 1
+  },
+  {
+    "Question": "He ___ TV after dinner.",
+    "Option": "watched",
+    "A": 0,
+    "Option__1": "watch",
+    "B": 0,
+    "Option__2": "watches",
+    "C": 1
+  },
+  {
+    "Question": "The gardener ___ the plants daily.",
+    "Option": "watered",
+    "A": 0,
+    "Option__1": "water",
+    "B": 0,
+    "Option__2": "waters",
+    "C": 1
+  },
+  {
+    "Question": "She ___ letters to her grandmother.",
+    "Option": "wrote",
+    "A": 0,
+    "Option__1": "write",
+    "B": 0,
+    "Option__2": "writes",
+    "C": 1
+  },
+  {
+    "Question": "The dog ___ the ball back to its owner.",
+    "Option": "brought",
+    "A": 0,
+    "Option__1": "bring",
+    "B": 0,
+    "Option__2": "brings",
+    "C": 1
+  },
+  {
+    "Question": "He ___ his bike to school.",
+    "Option": "rode",
+    "A": 0,
+    "Option__1": "ride",
+    "B": 0,
+    "Option__2": "rides",
+    "C": 1
+  },
+  {
+    "Question": "The store ___ at 9 a.m. every day.",
+    "Option": "opened",
+    "A": 0,
+    "Option__1": "open",
+    "B": 0,
+    "Option__2": "opens",
+    "C": 1
+  },
+  {
+    "Question": "She ___ dinner for her family.",
+    "Option": "prepared",
+    "A": 0,
+    "Option__1": "prepare",
+    "B": 0,
+    "Option__2": "prepares",
+    "C": 1
+  },
+  {
+    "Question": "He ___ his car every Sunday.",
+    "Option": "washed",
+    "A": 0,
+    "Option__1": "wash",
+    "B": 0,
+    "Option__2": "washes",
+    "C": 1
+  },
+  {
+    "Question": "The librarian ___ the books on the shelf.",
+    "Option": "arranged",
+    "A": 0,
+    "Option__1": "arrange",
+    "B": 0,
+    "Option__2": "arranges",
+    "C": 1
+  },
+  {
+    "Question": "She ___ her keys often.",
+    "Option": "lost",
+    "A": 0,
+    "Option__1": "lose",
+    "B": 0,
+    "Option__2": "loses",
+    "C": 1
+  },
+  {
+    "Question": "He ___ his friends on weekends.",
+    "Option": "met",
+    "A": 0,
+    "Option__1": "meet",
+    "B": 0,
+    "Option__2": "meets",
+    "C": 1
+  },
+  {
+    "Question": "The baby ___ milk every two hours.",
+    "Option": "drank",
+    "A": 0,
+    "Option__1": "drink",
+    "B": 0,
+    "Option__2": "drinks",
+    "C": 1
+  },
+  {
+    "Question": "She ___ the newspaper every morning.",
+    "Option": "readed",
+    "A": 0,
+    "Option__1": "read",
+    "B": 0,
+    "Option__2": "reads",
+    "C": 1
+  },
+  {
+    "Question": "He ___ his shoes before entering the house.",
+    "Option": "removed",
+    "A": 0,
+    "Option__1": "remove",
+    "B": 0,
+    "Option__2": "removes",
+    "C": 1
+  },
+  {
+    "Question": "The doctor ___ patients daily.",
+    "Option": "examined",
+    "A": 0,
+    "Option__1": "examine",
+    "B": 0,
+    "Option__2": "examines",
+    "C": 1
+  },
+  {
+    "Question": "She ___ her mother with the housework.",
+    "Option": "helped",
+    "A": 0,
+    "Option__1": "help",
+    "B": 0,
+    "Option__2": "helps",
+    "C": 1
+  },
+  {
+    "Question": "He ___ the guitar in a band.",
+    "Option": "played",
+    "A": 0,
+    "Option__1": "play",
+    "B": 0,
+    "Option__2": "plays",
+    "C": 1
+  },
+  {
+    "Question": "The teacher ___ questions to the students.",
+    "Option": "asked",
+    "A": 0,
+    "Option__1": "ask",
+    "B": 0,
+    "Option__2": "asks",
+    "C": 1
+  },
+  {
+    "Question": "She ___ flowers in her garden.",
+    "Option": "grow",
+    "A": 0,
+    "Option__1": "grows",
+    "B": 1,
+    "Option__2": "grew",
+    "C": 0
+  },
+  {
+    "Question": "He ___ the lawn every weekend.",
+    "Option": "mow",
+    "A": 0,
+    "Option__1": "mows",
+    "B": 1,
+    "Option__2": "mowed",
+    "C": 0
+  },
+  {
+    "Question": "The cat ___ on the window sill.",
+    "Option": "sit",
+    "A": 0,
+    "Option__1": "sits",
+    "B": 1,
+    "Option__2": "sat",
+    "C": 0
+  },
+  {
+    "Question": "She ___ the baby to sleep.",
+    "Option": "rock",
+    "A": 0,
+    "Option__1": "rocks",
+    "B": 1,
+    "Option__2": "rocked",
+    "C": 0
+  },
+  {
+    "Question": "He ___ for a run every morning.",
+    "Option": "goes",
+    "A": 1,
+    "Option__1": "went",
+    "B": 0,
+    "Option__2": "go",
+    "C": 0
+  },
+  {
+    "Question": "The student ___ hard for exams.",
+    "Option": "studies",
+    "A": 1,
+    "Option__1": "studied",
+    "B": 0,
+    "Option__2": "study",
+    "C": 0
+  },
+  {
+    "Question": "She ___ the window when it's hot.",
+    "Option": "opens",
+    "A": 1,
+    "Option__1": "opened",
+    "B": 0,
+    "Option__2": "open",
+    "C": 0
+  },
+  {
+    "Question": "He ___ the trash out every night.",
+    "Option": "takes",
+    "A": 1,
+    "Option__1": "took",
+    "B": 0,
+    "Option__2": "take",
+    "C": 0
+  },
+  {
+    "Question": "The bird ___ in the nest.",
+    "Option": "stays",
+    "A": 1,
+    "Option__1": "stayed",
+    "B": 0,
+    "Option__2": "stay",
+    "C": 0
+  },
+  {
+    "Question": "She ___ her dog in the park.",
+    "Option": "walks",
+    "A": 1,
+    "Option__1": "walked",
+    "B": 0,
+    "Option__2": "walk",
+    "C": 0
+  },
+  {
+    "Question": "He ___ his car to work.",
+    "Option": "drives",
+    "A": 1,
+    "Option__1": "drove",
+    "B": 0,
+    "Option__2": "drive",
+    "C": 0
+  },
+  {
+    "Question": "The chef ___ the cake with frosting.",
+    "Option": "decorates",
+    "A": 1,
+    "Option__1": "decorated",
+    "B": 0,
+    "Option__2": "decorate",
+    "C": 0
+  }
+]
